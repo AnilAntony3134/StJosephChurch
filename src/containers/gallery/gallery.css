@@ -1,0 +1,102 @@
+.gallery-wrap{
+    display: flex;
+    flex-direction: column;
+    background-image: white;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+.gallery-wrap h1{
+   padding-bottom: 40px;
+   font-family: var(--font-family);
+   font-size: 50px;
+    
+
+}
+.gpt__possibility {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../assets/image7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+    width: 90%;
+    height: 600px;
+    transition: 0.5s ease;
+  
+    left: 50%;
+    top: 50%;
+    animation: slider 25s infinite ease-in;
+    margin-bottom: 60px;
+
+}
+@keyframes slider {
+/* 0%{ background-image: linear-gradient(rgba(4,9,30,0.3),rgba(5, 6, 7, 0)),url(../../assets/DSC00871.JPG);} */
+
+0%{ background-image: url(../../assets/DSC00871.JPG);}
+
+20%{ background-image: url(../../assets/DSC00886.JPG);}
+
+40%{ background-image: url(../../assets/icon01.jpg);}
+
+60%{ background-image:url(../../assets/DSC08889.JPG);}
+
+80%{ background-image: url(../../assets/img1.jpg);}
+
+100%{ background-image: url(../../assets/image10.jpeg);}
+
+/* 70%{ background-image: linear-gradient(rgba(4,9,30,0.3),rgba(5, 6, 7, 0.8)),url(../../assets/image9.jpeg);}s
+
+80%{ background-image: linear-gradient(rgba(4,9,30,0.3),rgba(5, 6, 7, 0.8)),url(../../assets/DSC00871.JPG);}s
+
+90%{ background-image: linear-gradient(rgba(4,9,30,0.3),rgba(5, 6, 7, 0.8)),url(../../assets/image12.jpg);}s */
+
+/* 100%{ background-image: linear-gradient(rgba(4,9,30,0.3),rgba(5, 6, 7, 0.8)),url(../../assets/image8.jpg);} */
+
+
+    
+}
+.gpt3__possibility-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2rem;
+    
+}
+.gpt3__possibility-image img{
+    width: 80%;
+    height: 80%;
+}
+
+
+@media screen and (max-width: 950px) {
+    .gpt3__possibility {
+        flex-direction: column;
+        /* height: 40px; */
+    }
+
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt3__possibility-image img {
+        width: unset;
+        height: unset;
+    }
+
+    .gpt3__possibility-content {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__possibility-image img {
+        width: 60%;
+        height: 60%;
+        align-content: center;
+        align-items: center;
+    }
+}

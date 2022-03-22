@@ -1,0 +1,147 @@
+
+.contactus-wrap-color{
+    color: rgb(0, 0, 0);
+    background-color: #d7f5ef;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-family);
+}
+.contactus-wrap-left{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10x;
+    margin: 40px;
+}
+.contactus-input-row{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.contactus-input-group{
+    flex-basis: 45%;
+}
+.contactus-input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+.contactus-input-group textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.contactus-input-group label{
+    margin-bottom: 6px;
+    margin-top: 20px;
+    display: block;
+    /* color: #1c00; */
+
+}
+.contactus-input-group button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contactus-input-row h1{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.contactus-wrap-middle img{
+    height: 600px;
+    border-radius: 10%;
+
+}
+
+.contactus-wrap-right{
+    background-color: white;
+    
+    border-radius: 5%;
+    flex: 1;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    
+}
+.contactus-wrap-right h1{
+    color: #1c00b5;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+.contactus-wrap-right tr td:first-child{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.contactus-wrap-right tr td{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+}
+/* tr td{
+    padding-right: 20px;
+} */
+
+@media screen and (max-width: 1200px) {
+    .contactus-wrap-color{
+        flex-direction: column-reverse;
+    }
+    .contactus-wrap-right{
+        margin: 10px;
+    }
+    .contactus-wrap-right tr td{
+        font-size: 14px;
+        margin: 6px 0;
+        padding: 10px;
+    }
+}@media screen and (max-width: 800px) {
+    .stjoseph__blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .stjoseph__blog-container_groupA .gpt3__blog-container_article  {
+       width: 100%;
+    }
+
+    .stjoseph__blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .contactus-wrap-right tr td{
+        font-size: 10px;
+        margin: 3px 0;
+        padding: 4px;
+    }
+    .contactus-wrap-color iframe{
+
+        width:340px;
+        height:820px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .stjoseph__blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,106 @@
+.gpt3__features-container__feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+
+    margin: 1rem;
+}
+
+.gpt3__features-container__feature-title {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 3rem;
+}
+
+.gpt3__features-container__feature-title h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+    /* .gpt3__features-container__feature-title h1::after {
+        width: 88px;
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: var(--gradient-bar);
+        display: block;
+        margin-top: 0.5rem;
+        transition: 0.25s;
+
+    }
+    .gpt3__features-container__feature-title h1:hover::after{
+        width: 100%;
+    } */
+
+
+.gpt3__features-container__feature-title div {
+    width: 68px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0.5rem;
+}
+
+.gpt3__features-container_feature-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    display: flex;
+}
+
+.gpt3__features-container_feature-text .text1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+
+
+.gpt3__features-container_feature-text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+@media screen and (max-width: 700px) {
+    .gpt3__features-container__feature {
+        margin: 1rem 0;
+        flex-direction: column;
+    }
+    .gpt3__features-container__feature-title h1 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .gpt3__features-container_feature-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-container__feature-title h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .gpt3__features-container_feature-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .gpt3__features-container__feature {
+        margin: 1rem 0;
+    }
+}

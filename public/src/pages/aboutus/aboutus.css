@@ -1,0 +1,84 @@
+.Aboutus-wrap{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.page__aboutus_title{
+
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5, 68, 94, 0.7),rgba(24, 154, 180, 0.7)),url(../../assets/Palayam.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.page__aboutus_title h1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin-top: 8rem;
+
+}
+.page__aboutus_title p{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 15px 0 25px;
+
+}
+.about-col .stjoseph__blog-heading h1{
+    display: none;
+}
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.red-btn:hover{
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .page__aboutus_title h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .page__aboutus_title h1{
+        font-size: 32px;
+    }
+    .page__aboutus_title p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

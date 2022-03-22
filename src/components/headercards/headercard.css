@@ -1,0 +1,99 @@
+.Headercards-wrap{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center;
+    align-items: center; */
+    margin-left: 600px;
+    padding-bottom: 80px;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 18px;
+
+    
+
+}
+.Headercards-wrap .card1{
+    background-color: rgb(236, 133, 48);
+    padding: 30px 60px 20px; 
+    cursor: pointer;
+
+
+    
+
+}
+.Headercards-wrap .card2{
+    background-color: rgb(25, 156, 156);
+    padding: 30px 60px 20px;
+    cursor: pointer; 
+
+
+
+}
+.Headercards-wrap .card3{
+    background-color: rgb(243, 69, 243);
+    padding: 30px 60px 20px; 
+    cursor: pointer;
+
+
+
+}
+.Headercards-wrap .card4{
+    background-color: rgb(167, 26, 61);
+    padding: 30px 60px 20px; 
+    cursor: pointer;
+
+
+
+}
+.Headercards-wrap .card1:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    box-shadow: rgb(167, 26, 61, 0.1);
+    transition: 0.5s ease;
+    opacity: 100%;
+
+}
+.Headercards-wrap .card2:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    opacity: 100%;
+
+}
+.Headercards-wrap .card3:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    opacity: 100%;
+
+}
+.Headercards-wrap .card4:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    opacity: 100%;
+
+}
+@media screen and (max-width: 1680px) {
+    .Headercards-wrap{
+        margin-left: 400px;
+    }
+@media screen and (max-width: 1480px) {
+        .Headercards-wrap{
+            margin-left: 200px;
+        }    
+    }
+    @media screen and (max-width: 1280px) {
+        .Headercards-wrap{
+            margin-left: 100px;
+        }    
+    }
+    @media screen and (max-width: 900px) {
+        .Headercards-wrap{
+            margin-left: 10px;
+        }
+        .Headercards-wrap .card1,.Headercards-wrap .card2,.Headercards-wrap .card3,.Headercards-wrap .card4{
+            padding: 10px;
+
+        }
+    }}
