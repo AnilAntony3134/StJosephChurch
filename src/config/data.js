@@ -120,7 +120,7 @@ export const blogList = [
     cover: '/assets/update4.jpg',
   },
   {
-    id: 9,
+    id: 11,
     title: 'ദിവ്യബലിക്ക് നേതൃത്വം നൽകി നൂൺഷ്യോ',
     category: 'Updates',
     subCategory: ['Updates', 'News', 'St Joseph '],
@@ -132,7 +132,7 @@ export const blogList = [
     cover: '/assets/update3.jpg',
   },
   {
-    id: 9,
+    id: 12,
     title: 'മെത്രാപ്പൊലീത്ത ഡോ. തോമസ് ജെ. നെറ്റോയുടെ മെത്രാഭിഷേകവും സ്ഥാനാരോഹണവും',
     category: 'Updates',
     subCategory: ['Updates', 'News', 'St Joseph '],
@@ -144,7 +144,7 @@ export const blogList = [
     cover: '/assets/update2.jpg',
   },
   {
-    id: 9,
+    id: 13,
     title: 'റവ. ഡോ. തോമസ് ജെ. നെറ്റോ തിരുവനന്തപുരം രൂപത അധ്യക്ഷനായി ദിവ്യബലി',
     category: 'Updates',
     subCategory: ['Updates', 'News', 'St Joseph '],
