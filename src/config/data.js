@@ -13,7 +13,7 @@ export const blogList = [
   },
   {
     id: 2,
-    title: 'Easter Updates ഈസ്റ്റർ പ്രാർത്ഥന സമയം',
+    title: 'വിശുദ്ധവാര തിരുക്കർമങ്ങൾ ',
     category: 'Updates',
     subCategory: ['Sevices', 'KCYM', 'Youth Ministry '],
     description: "",
