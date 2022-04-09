@@ -98,7 +98,7 @@ export const blogList = [
   {
     id: 9,
     title: 'തിരുവനന്തപുരം നഗരമധ്യത്തിൽ  കാഴ്ചയുടെ വിസ്മയമായി മാറിയ പാളയം പള്ളി.',
-    category: 'Updates',
+    category: 'History',
     subCategory: ['Updates', 'News', 'St Joseph '],
     description:
       "When St Joseph Cathedral became the centre of attraction in Trivandrum city",
