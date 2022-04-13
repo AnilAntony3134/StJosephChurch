@@ -8,3 +8,4 @@ export {default as Bloglist} from './bloglist/Bloglist';
 export {default as Header1} from './header1/Header1';
 export {default as EmptyList} from './common/EmptyList/EmptyList';
 export {default as Headercards} from './headercards/Headercards';
+export {default as Popup} from './popup/Popup';

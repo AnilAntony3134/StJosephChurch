@@ -74,6 +74,7 @@
     margin-top: -85px;
     /* margin-left: 125px; */
     margin-right: -80px;
+    overflow: auto;
 }
 .stjoseph__header-image img{
     width: 100%;

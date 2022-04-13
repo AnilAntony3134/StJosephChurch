@@ -21,7 +21,7 @@ const Blog1 = () => {
   return (
     
     <div className='blog1-wrap'>
-      <Link to='/aboutus'><span>&#8592;</span> <span>Go Back </span></Link>
+      <Link to='/'><span>&#8592;</span> <span>Go Back </span></Link>
    
     {
       blog ? (<div className="blog-wrap">
