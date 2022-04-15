@@ -9,7 +9,7 @@ public_folder: "public/assets/images" # The src attribute for uploaded media wil
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "public/src/config" # The path to the folder where the documents are stored
+    folder: "public/src/config/data.js/bloglist" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields: # The fields for each document, usually in front matter
