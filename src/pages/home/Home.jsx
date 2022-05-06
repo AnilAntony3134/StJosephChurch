@@ -26,9 +26,9 @@ const Home = () => {
     <div className="App">
       <div className="gradient_bg">
 
-       <Popup trigger={buttonPopup} setTrigger={SetButtonPopup}>
+    {/* <Popup trigger={buttonPopup} setTrigger={SetButtonPopup}>
          <img className='popup-image' src="../../assets/Easter Updates.jpg" alt="x" />
-       </Popup> 
+       </Popup> */}
        <Header />
         </div>
         {/* <Headercards /> */}
