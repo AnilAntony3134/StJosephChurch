@@ -1,8 +1,5 @@
-
-import Article from '../../components/article/Article';
 import './blog.css';
-import React, { useState } from 'react';
-import {Bloglist, Search, Header1, EmptyList} from '../../components';
+import {Bloglist} from '../../components';
 import './blog.css';
 import {blogList} from '../../config/data'; 
 const Blog = () =>{
