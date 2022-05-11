@@ -21,7 +21,7 @@ return (
                     <p>{createdAt}</p>
                 </div>
             </div>
-            <Link className='blogItem-link' to={`/blog/${id}`}>
+            <Link className='blogItem-link' to={`/${id}`}>
             ReadMore
             </Link>
         </footer>
