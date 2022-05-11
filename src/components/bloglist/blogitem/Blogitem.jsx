@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import Chip from '../../common/Chip/Chip';
 import './blogitem.css';
 
-const Blogitem = ({ blog:{id,description,title,createdAt,authorName,authorAvatar,category,cover}, }) =>{
+const Blogitem = ({ blog:{id,description,title,createdAt,author,category,thumbnail}, }) =>{
 return (
     <div className='blogitem-wrap'>
-        <img src={cover} alt="cover" className='blogitem-cover'/>
+        <img src={thumbnail} alt="cover" className='blogitem-cover'/>
         <Chip label={category} />
         <h3>{title}</h3>
         <p className='blogItem-desc'>
@@ -16,9 +16,8 @@ return (
       
         <footer>
             <div className="blogitem-author">
-                <img src={authorAvatar} alt="avatar" />
                 <div>
-                    <h6>{authorName}</h6>
+                    <h6>{author}</h6>
                     <p>{createdAt}</p>
                 </div>
             </div>

@@ -1,11 +1,11 @@
-  ---
-    id: 13,
-    title: 'റവ. ഡോ. തോമസ് ജെ. നെറ്റോ തിരുവനന്തപുരം രൂപത അധ്യക്ഷനായി ദിവ്യബലി',
-    category: 'Updates',
-    subCategory: ['Updates', 'News', 'St Joseph '],
-    description:"മോസ്റ്റ്. റവ. ഡോ. തോമസ് ജെ. നെറ്റോ തിരുവനന്തപുരം രൂപത അധ്യക്ഷനായി ദിവ്യബലി അർപ്പിച്ചപ്പോൾ.",
-      authorName: 'Parish Priest',
-      authorAvatar:  '/assets/DSC01943.JPG',
-      createdAt: 'March 20, 2022',
-    cover: '/assets/update1.jpg',
 ---
+id : 17,
+title: Anil
+" category": History
+createdAt: 2022-04-10T12:08:09.964Z
+thumbnail: public/assets/images/img_0679.jpg
+author: Jaba
+authorAvatar: public/assets/images/img_0679.jpg
+description: This is a test for checking proper working cms
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jsLUidiYm0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

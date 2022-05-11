@@ -1,51 +1,54 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import Markdown from "react-markdown"
 import Chip from '../../components/common/Chip/Chip';
 import EmptyList from '../../components/common/EmptyList/EmptyList';
-import {blogList} from '../../config/data';
+// import {blogList} from '../../config/data';
+import postlist from "../../posts.json";
 import './blogs.css';
 
 const Blogs = () => {
   const {id}=useParams();
-  const [blog, setBlog] = useState(null)
+  
+  const blog = {}
+  let postExists = false
+    postlist.forEach((post,i)=>{  
+        if (post.id === parseInt(id)){
+            blog.title = post.title ? post.title : "No title given"
+            blog.date = post.date ? post.date : "No date given"
+            blog.author = post.author ? post.author : "No author given"
+            blog.content = post.content ? post.content : "No content given"
+            blog.thumbnail = post.thumbnail ? post.thumbnail : "No image Given"
 
-  useEffect(()=>{
-    let blog=blogList.find(blog=>Blogs.id===parseInt(id));
-
-    if(blog){
-      setBlog(blog);
+            postExists = true;
     }
+    })
 
-  },[]);
+if (postExists === false){
+    <Link to='/aboutus'><span>&#8592;</span> <span>Go Back </span></Link>
+    return  <EmptyList /> 
+}  
+console.log(blog.thumbnail);
   return (
-    
-    <div>
+    <div className='blog1-wrap'>
       <Link to='/aboutus'><span>&#8592;</span> <span>Go Back </span></Link>
-   
-    {
-      blog ? (<div className="blog-wrap">
       <header>
-        <p className='blog-date'>Published {blog.createdAt}</p>
+        <p className='blog-date'>Published {blog.date}</p>
         <h1>{blog.title}</h1>
-        <div className="blog-subCategory">
+        {/* <div className="blog-subCategory">
           {blog.subCategory.map((category,index)=>
           <div>
           <Chip key={index} label={category}/>
           </div>
           )}
-        </div>
+        </div> */}
         
       </header>
 
-      <img src={blog.cover} alt='cover' />
-      <p className='blog-desc'>{blog.description}</p>
+      <img src={blog.thumbnail} alt='cover'/>
+      <Markdown className='blog-desc' children={blog.content}/>
     </div>
-    )
-    :(
-    <EmptyList />
-    )}
-    </div> 
     
-  );
+    );
     };
 export default Blogs

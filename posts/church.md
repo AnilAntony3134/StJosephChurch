@@ -1,10 +1,11 @@
 ---
-id : 17,
 title: Church
-" category": Updates
+category: Updates
 createdAt: 2022-05-10T12:08:09.964Z
 thumbnail: public/assets/images/img_0679.jpg
-authorName: Anil
+author: Anil
 authorAvatar: public/assets/images/img_0679.jpg
 description: This is a test for checking proper working cms
 ---
+This is a test for checking proper working cms
+cpnetent of the vonteof the content of the content is the game we are playing right here
