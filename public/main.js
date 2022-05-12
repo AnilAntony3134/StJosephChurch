@@ -75,7 +75,7 @@ const getPosts = () => {
                 const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`
                 const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
                 const date = new Date(datestring)
-                const timestamp = date.getTime()
+                const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
