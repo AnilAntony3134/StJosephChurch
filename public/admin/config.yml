@@ -20,4 +20,4 @@ collections:
       - {label: "author", name: "author", widget: "string", required: false}
       # - {label: "authorAvatar", name: "authorAvatar", widget: "image", required: false}
       # - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "content", name: "description", widget: "markdown"} 
+      - {label: "content", name: "content", widget: "markdown"} 
