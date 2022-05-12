@@ -15,8 +15,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "title", name: "title", widget: "string"}
       - {label: "category", name: "category", widget: "string"}
-      - {label: "createdAt", name: "createdAt", widget: "datetime"}
+      - {label: "date", name: "createdAt", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "author", name: "author", widget: "string", required: false}
-      - {label: "authorAvatar", name: "authorAvatar", widget: "image", required: false}
-      - {label: "description", name: "description", widget: "markdown"} 
+      # - {label: "authorAvatar", name: "authorAvatar", widget: "image", required: false}
+      # - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "content", name: "description", widget: "markdown"} 

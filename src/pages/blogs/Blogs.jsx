@@ -12,8 +12,10 @@ const Blogs = () => {
   
   const blog = {}
   let postExists = false
-    postlist.forEach((post,i)=>{  
+    postlist.forEach((post,i)=>{ 
+        console.log("this is the post id " + post.id); 
         if (post.id === parseInt(id)){
+            // blog.id = post.id
             blog.title = post.title ? post.title : "No title given"
             blog.date = post.date ? post.date : "No date given"
             blog.author = post.author ? post.author : "No author given"
@@ -21,14 +23,16 @@ const Blogs = () => {
             blog.thumbnail = post.thumbnail ? post.thumbnail : "No image Given"
 
             postExists = true;
+         
     }
     })
-
+    console.log("this is the regular " + id);
+    console.log(postExists);
 if (postExists === false){
     <Link to='/aboutus'><span>&#8592;</span> <span>Go Back </span></Link>
     return  <EmptyList /> 
 }  
-console.log(blog.thumbnail);
+
   return (
     <div className='blog1-wrap'>
       <Link to='/aboutus'><span>&#8592;</span> <span>Go Back </span></Link>

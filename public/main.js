@@ -75,7 +75,7 @@ const getPosts = () => {
                 const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`
                 const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
                 const date = new Date(datestring)
-                const timestamp = date.getTime() / 1000
+                const timestamp = date.getTime()
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
@@ -84,7 +84,7 @@ const getPosts = () => {
                     // authorName: authorName ? authorName : "No date given",
                     // time: parsedDate["time"],
                     thumbnail: metadata.thumbnail,
-                    content: content ? content : "No content given",
+                    content: metadata.content ? metadata.content : "No content given",
                 }
                 postlist.push(post)
                 ilist.push(i)

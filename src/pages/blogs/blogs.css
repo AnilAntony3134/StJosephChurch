@@ -53,8 +53,9 @@
 }
 
 .blog-desc {
+    text-align: center;
     padding: 1rem;
     margin-top: 1.5rem;
-    align-content: flex-start;
-    align-self: stretch;
+    align-content: center;
+    align-self: center;
 }

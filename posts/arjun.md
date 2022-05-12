@@ -1,7 +1,9 @@
 ---
+id: 946665006
 title: Amazing
 category: updates
-createdAt: 2022-05-12T02:30:13.630Z
+date: 2022-05-12T02:30:13.630Z
 thumbnail: public/assets/images/designer-1.jpg
-description: sssdadssssssssssssssss
+content: This is data inside the content hiyya
 ---
+ugijggmnknlhjlkjlhkugijggmnknlhjlkjlhkugijggmnknlhjlkjlhkugijggmnknlhjlkjlhkugijggmnknlhjlkjlhkugijggmnknlhjlkjlhk
