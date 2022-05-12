@@ -39,23 +39,24 @@
 }
 
 .blog1-wrap img {
-    width: 50%;
-}
-
-.blog-subCategory {
     display: flex;
+    align-items: center;
     justify-content: center;
-    border-radius: 5%;
-}
-
-.blog-subCategory>div {
-    margin: 1rem;
+    width: 60%;
 }
 
 .blog-desc {
-    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: justify;
     padding: 1rem;
     margin-top: 1.5rem;
-    align-content: center;
-    align-self: center;
+    /* margin-left: 15rem; */
+    /* align-content: center;
+    align-self: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }

@@ -39,18 +39,14 @@ if (postExists === false){
       <header>
         <p className='blog-date'>Published {blog.date}</p>
         <h1>{blog.title}</h1>
-        {/* <div className="blog-subCategory">
-          {blog.subCategory.map((category,index)=>
-          <div>
-          <Chip key={index} label={category}/>
-          </div>
-          )}
-        </div> */}
-        
-      </header>
+        </header>
+         <img src={blog.thumbnail} alt='cover'/>
+         <div className='blog-desc'>
+         <Markdown children={blog.content}/>
+         </div>
+   
 
-      <img src={blog.thumbnail} alt='cover'/>
-      <Markdown className='blog-desc' children={blog.content}/>
+     
     </div>
     
     );
