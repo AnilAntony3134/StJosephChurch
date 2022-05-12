@@ -1,7 +1,7 @@
 ---
-title: arjun
+title: Amazing
 category: updates
-createdAt: 2022-05-12T02:27:24.965Z
-thumbnail: public/assets/images/whatsapp-image-2022-05-06-at-10.32.49-am.jpeg
-description: sssssssssssssssssssssssssssssssssssss
+createdAt: 2022-05-12T02:30:13.630Z
+thumbnail: public/assets/images/designer-1.jpg
+description: sssdadssssssssssssssss
 ---
