@@ -10,6 +10,7 @@ const Menu = () =>(
   <p><Link to="/priests"> Priests </Link></p>
   <p><Link to="/contactus"> Contact Us </Link></p>
   <p><a href="https://www.facebook.com/Palayampalli">Facebook</a></p>
+  <p><Link to="/admin"> Admin </Link></p>
 
 </>
 )
