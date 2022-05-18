@@ -6,7 +6,7 @@ const Menu = () =>(
   <>
   <p>
   <Link to="/"> Home </Link> </p>
-  <p><Link to="/aboutus"> Blogs & News</Link></p>
+  <p><Link to="/aboutus"> Blog & News</Link></p>
   <p><Link to="/priests"> Priests </Link></p>
   <p><Link to="/contactus"> Contact Us </Link></p>
   <p><a href="https://www.facebook.com/Palayampalli">Facebook</a></p>
@@ -42,7 +42,7 @@ const Navbar = () => {
               <Menu />
               <div className="stjoseph__navbar-menu_container-links-sign">
           {/* <p>Contact Us</p> */}
-          <button type="button">Queries</button>
+          <button type="button">Querie</button>
         </div>
               </div>
             </div>
