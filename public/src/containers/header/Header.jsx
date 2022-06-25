@@ -23,5 +23,4 @@ wide flock to receive heavenly blessings.
     </div>
   )
 }
-
 export default Header
